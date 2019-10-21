@@ -1,0 +1,1403 @@
+*{margin: 0%;
+padding: 0%}
+
+/*start of navbar*/
+
+.navbar
+{
+	width:100%;
+	height: 50px;
+}
+
+.logo
+{
+	width:5px;
+	height: 25px;
+	border-left: 2px solid #27b2d3;
+	border-top: 2px solid #27b2d3;
+	border-bottom: 3px solid #27b2d3;
+	float: left;
+	margin-left: 8%;
+	margin-top: 8px;
+	border-radius: 5px 0px 0px 5px;
+
+}
+
+
+
+.icon1
+{
+	width:3%;
+	height: 35px;
+	margin-left: 1px;
+	margin-top: 7px;
+	float: left;
+}
+
+.logo1
+{
+	color: #27b2d3;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 4px;
+
+}
+
+
+.logo2
+{
+	width:80px;
+	height: 25px;
+	border-right: 2px solid #27b2d3;
+	border-top: 2px solid #27b2d3;
+	border-bottom: 3px solid #27b2d3;
+	float: left;
+	margin-top: 8px;
+	border-radius: 0px 5px 5px 0px;
+
+}
+
+.navbar ul
+{
+	margin-left: 40%;
+		
+}
+
+.navbar ul li
+{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+    color: black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar ul li:hover
+{
+	color: #27b2d3;
+}
+
+.navbar ul li:after
+{
+	content:".";
+	margin-left: 15px;
+	margin-top: 10px;
+		
+}
+
+.navbar ul li:last-child:after
+{
+	content:"|"
+}
+
+.fa-search
+{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.fa-search:hover
+{
+	color: #27b2d3;
+}
+
+/*end of navbar*/
+
+
+/*start of first container*/
+
+.firstcontainer
+{
+	background: url(photos/TheDentistTakesCareofMyTeeth.jpg) no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 600px
+}
+
+.img1
+{
+	float: left;
+	margin-left: 60%;
+	width:100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid white;
+	margin-top: 180px;
+	background:url('photos/denton-tx-childrens-dentist.png')no-repeat;
+	background-size: cover;
+}
+
+
+.img2
+{
+	float: left;
+	margin-left: 3%;
+	width:100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid white;
+	margin-top: 180px;
+	background: url('photos/HABS dentist refugee.jpg')no-repeat;
+	background-size: cover;
+}
+
+
+.img3
+{
+	margin-left: 3%;
+	float: left;
+	width:100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid white;
+	margin-top: 180px;
+	background: url('photos/kids-003.jpg')no-repeat;
+	background-size: cover;
+}
+
+.gentlecontainer
+{
+	width:30%;
+	height: 60px;
+	background:rgba(253,253,253);
+	margin-left: 59%;
+	margin-top: 20px;
+	color: #1d8da5;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+	padding-top: 20px;
+	padding-left: 20px;
+	word-spacing: 20px;
+	float: left;
+
+}
+
+
+.createcontainer
+{
+	width:28%;
+	height: 40px;
+	background:rgba(253,253,253);
+	float:left;
+	margin-left: 61%;
+	margin-top: 5px;
+	color: #1d8da5;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+	padding-top: 20px;
+	padding-left: 20px;
+	
+
+}
+
+.nameform
+{
+	width:28%;
+	height: 200px;
+	background: #27b2d3;
+	float: left;
+	margin-left: 5%;
+	position:absolute;
+	top: 610px;
+}
+
+.dateform
+{
+	width:28%;
+	height: 200px;
+	background: #42c7e6;
+	float: left;
+	margin-left: 36%;
+	position:absolute;
+	top: 610px;
+}
+
+.phoneform
+{
+	width:28%;
+	height: 200px;
+	background: #5bd4f1;
+	float: left;
+	margin-left: 67%;
+	position:absolute;
+	top: 610px;
+}
+	
+.title
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding-left: 5%;
+	padding-top: 20px;
+	text-transform: uppercase;
+
+}
+
+.nameform input
+{
+	width:85%;
+	height: 30px;
+	margin-left: 5%;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+	background: #7ad9ef;
+	border: solid 3px #7ad9ef;
+	padding-left:10px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.onelist
+{
+	float: left;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: 5%;
+	width: 2%;
+
+}
+
+.selectdate1
+{
+	width: 30%;
+	height: 30px;
+	background: #7ad9ef;
+	color: white;
+	float: left;
+	margin-left: 4%;
+	margin-top: 30px;
+	border: 2px solid #7ad9ef;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: bold;
+	
+}
+
+.selecttime1
+{
+	width: 45%;
+	height: 30px;
+	background: #7ad9ef;
+	color: white;
+	margin-left: 5%;
+	margin-top: 30px;
+	border: 2px solid #7ad9ef;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+	margin-right: 9%;
+	font-weight: bold;
+	
+}
+
+.twolist
+{
+	float: left;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: 5%;
+	width: 2%;
+
+}
+
+.phoneform input
+{
+	width:35%;
+	height: 30px;
+	margin-left: 5%;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+	background: #7ad9ef;
+	border: solid 3px #7ad9ef;
+	padding-left:10px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.btn1
+{
+	width:38%;
+	height: 35px;
+	border: solid 1px white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform:uppercase;
+	color: white;
+	background: #5bd4f1;
+	float: right;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right:10%;
+	
+}
+	
+/*end of first container*/
+
+/*start of second container*/
+
+.secondcontainer
+{
+	width:100%;
+	height: 600px;
+	background: url('photos/header-2 (1).png') no-repeat;
+	background-size: cover;
+}
+
+.name
+{
+	text-transform: uppercase;
+	color: #2db2d5;
+	padding-top: 170px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 6%	
+}
+
+.undername
+{
+	text-transform: uppercase;
+	color: grey;
+	padding-top: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 6%	
+}
+
+.secondcontainer .mainpar
+{
+	color: black;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 6%	
+}
+
+
+
+.btn2
+{
+	width:8%;
+	height: 35px;
+	border: solid 1px #27b2d3;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #27b2d3;
+	background: #f3f3f3;
+	float:left;
+	margin-top:30px;
+	margin-left:5%;
+	
+}
+
+.btn3
+{
+	width:8%;
+	height: 35px;
+	border: solid 1px #27b2d3;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #27b2d3;
+	background: #f3f3f3;
+	margin-top: 30px;
+	margin-left:1%;
+	
+}
+
+
+
+/*end of second container*/
+
+
+/*start of third container*/
+
+.thirdcontainer
+{
+	width:100%;
+	height: 700px;
+}
+
+.icon2
+{
+	width:3%;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 50px;
+	float: left;
+}
+
+.aboutcontainer
+{
+	width:250px;
+	height: 50px;
+	border-bottom: 2px solid #27b2d3;
+	margin-top: 45px;
+	float: left;
+	
+	
+}
+
+
+.aboutcontainer p
+{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 25px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 8%;
+		
+
+}
+
+.parabout
+{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 120px;
+    color: #787878;
+	text-transform: capitalize;
+	font-size: 15px;
+	line-height: 200%;
+	padding-left: 8%
+}
+
+
+
+
+.rightcontainer
+{
+	width:45%;
+	height: 500px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+	
+}
+
+.first
+{
+	width:100%;
+	float: left;
+	height: 150px;
+}
+
+.circle1
+{
+	width:20%;
+	height: 120px;
+	border: 2.5px solid #29b3d0;
+	border-radius: 50%;
+	float: left;
+	margin-top: 40px;
+	display:block;
+
+	
+}
+
+.twoteeth,.mouth,.icecream
+{
+	width:35%;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 35%;
+}
+
+
+.title1
+{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+	color: #787878;
+	padding-top: 55px;
+	padding-left: 24%;
+}
+
+.par1
+{
+	color: #787878;
+	font-size: 12px;
+	text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+	padding-top: 20px;
+	padding-left: 24%;
+	line-height: 150%;
+	padding-right: 10px;
+}
+
+.circle2
+{
+	
+	width:20%;
+	height: 120px;
+	border: 2.5px solid #29b3d0;
+	border-radius: 50%;
+	margin-top: 40px;
+	float: left;
+}
+
+.leftcontainer
+{
+	width:45%;
+	height: 500px;
+	float: left;
+	margin-top: 20px;
+}
+
+.imgdiv
+{
+	width:95%;
+	height: 200px;
+	margin-left: 5%;
+	background: url('photos/Sveiki-dantys.jpg')no-repeat;
+	background-size: cover;
+	margin-top: 40px;
+
+}
+	
+
+.dentalcarediv
+{
+	width:94.8%;
+	margin-left: 5.1%;
+	height: 100px;
+	border: 1px solid #eee;
+	
+}
+
+.fa-plus-circle
+{
+	color: #2dafe1;
+	padding-top: 20px;
+	padding-left: 20px;
+	float: left;
+}
+
+.dentalcare
+{
+	color: #2dafe1;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 20px;
+	padding-left: 50px;
+
+}
+
+.dentalcarepar
+{
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+	padding-left: 50px;
+	color: #848181;
+}
+
+
+.wordpressdiv
+{
+	width:94.8%;
+	margin-left: 5.1%;
+	height: 70px;
+	border: 1px solid #eee;
+	margin-top: 3px;
+	
+}
+
+.psddiv
+{
+	width:94.8%;
+	margin-left: 5.1%;
+	height: 70px;
+	border: 1px solid #eee;
+	margin-top: 3px;
+	
+}
+
+.fa-minus-circle
+{
+	color: #dbdbdb;
+	padding-left: 20px;
+	padding-top: 25px;
+	float: left
+}
+
+.wordpressdiv p,.psddiv p
+{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 25px;
+	color: #696969;
+	text-transform: uppercase;
+	position: relative;
+	left: 20px;
+
+}
+
+
+/*end of third container*/
+
+/* start of forth contaoner*/
+
+.forthcontainer
+{
+	width:100%;
+	height: 800px;
+}
+
+.line
+{
+	width:100%;
+	height: 2px;
+	background: #27b2d3;
+	margin-top: 50px;
+}
+
+
+.servicecontainer
+{
+	width:150px;
+	height: 50px;
+	border-bottom: 2px solid #27b2d3;
+	margin-top: 45px;
+	float: left;
+	
+	
+}
+
+
+.servicecontainer p
+{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 25px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 19px;
+	padding-left: 8%;
+		
+
+}
+
+.parservice
+{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 120px;
+    color: #787878;
+	text-transform: capitalize;
+	font-size: 15px;
+	line-height: 200%;
+	padding-left: 8%
+}
+
+
+.photo1,
+.photo2,
+.photo3,
+.photo4
+{
+	width:18.75%;
+	height: 250px;
+	float: left;
+	margin-left: 5%;
+	border-radius: 100%;
+	background-size: cover;
+	margin-top: 50px;
+		
+}
+
+.photo1
+{
+	background: url('photos/coos-bay-dentist-north-bend.png') no-repeat;
+	
+}
+
+.photo2
+{
+	background: url('photos/Markham-Dentist-Dentistry-On-7.png')no-repeat
+}
+
+.photo3
+{
+	background: url('photos/woman-dentist-teeth.png')no-repeat
+}
+
+.photo4
+{
+	background: url('photos/photo-1468493858157-0da44aaf1d13.png')no-repeat
+}
+
+.one,
+.two,
+.three,
+.four
+{
+	background: #0d8eae;
+	transform: rotate(45deg);
+	width:50px;
+	height: 50px;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+	margin-top: 100px;
+	position: absolute;
+	
+}
+
+.one
+{
+	left: 3.5%;
+}
+
+.two
+{
+	left:27.25%;
+}
+
+.three
+{
+	left: 51%;
+}
+
+.four
+{
+	left: 74.75%;
+}
+
+.one p,
+.two p,
+.three p,
+.four p
+{
+	color: white;
+	padding-top: 15px;
+	padding-left: 12px;
+	transform: rotate(-45deg);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+
+.titlediv
+{
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 300px;
+}
+
+
+
+.consulting,
+.prototype,
+.implementing,
+.happysmile
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #6a6a6a;
+	float: left;
+	padding-top: 20px;
+	
+
+}
+
+.consulting
+{
+	padding-left: 6.5%;
+}
+
+.happysmile
+{
+	padding-left:18.5%
+}
+
+.implementing
+{
+	padding-left: 15%
+}
+
+.prototype
+{
+	padding-left: 16.5%
+}
+
+
+.pardiv
+{
+	width:90%;
+	height: 120px;
+	margin-left: 5%;
+	margin-top:5px;
+}
+
+.par2,.par3,.par4,.par5
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #6a6a6a;
+	float: left;
+	width: 20%;
+	text-align: center;
+	position: relative;
+}
+
+.par2
+{
+	left: 2%
+}
+
+.par3
+{
+	left: 9%
+}
+
+.par4
+{
+	left: 14%;
+}
+
+.par5
+{
+	left: 20%;
+}
+
+.logo3div
+{
+	width:50%;
+	height: 50px;
+	margin-left: 27%;
+	margin-top: 20px;
+}
+
+.line1
+{
+	width:40%;
+	height: 2px;
+	background: #eee;
+	float: left;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+
+.logo3
+{
+	width:5px;
+	height: 16px;
+	border-left: 2px solid #27b2d3;
+	border-top: 2px solid #27b2d3;
+	border-bottom: 3px solid #27b2d3;
+	float: left;
+	margin-left: .5%;
+	margin-top: 13px;
+	border-radius: 5px 0px 0px 5px;
+
+}
+
+
+
+.icon3
+{
+	width:2%;
+	height: 20px;
+	margin-left: 1px;
+	margin-top: 13px;
+	float: left;
+}
+
+.logo3div p
+{
+	color: #27b2d3;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 2px;
+
+}
+
+
+.logo4
+{
+	width:60px;
+	height: 16px;
+	border-right: 2px solid #27b2d3;
+	border-top: 2px solid #27b2d3;
+	border-bottom: 3px solid #27b2d3;
+	float: left;
+	margin-top: 13px;
+	border-radius: 0px 5px 0px 5px;
+	
+
+}
+
+.line3
+{
+	width:40%;
+	height: 2px;
+	background: #eee;
+	margin-top: 20px;
+	border-radius: 5px;
+	float: right;
+	margin-right:6.7%;
+	
+}
+/* end of forth container*/
+
+
+
+/*start of fifth contaner*/
+
+.fifthcontaner
+{
+	width:100%;
+	height: 650px;
+	background:#000000
+
+}
+
+
+iframe
+{
+	width:100%;
+	height: 500px;	
+}
+
+.fifthcontaner p
+{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+    font-family: 'Lato', sans-serif;
+	padding-left: 5%;
+	padding-top: 50px;
+	float: left;
+
+}
+
+.btn4
+{
+	width:15%;
+	height: 50px;
+	background: #27b2d3;
+	border: 2px solid #27b2d3;
+	border-radius: 10px;
+	float: right;
+	margin-right: 10%;
+	margin-top: 50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+
+	
+}
+
+.fa-angle-right
+{
+	padding-left: 10px;
+}
+
+/*end of fifth container*/
+
+
+/*start of sixth contaner*/
+
+.sixthcontainer
+{
+	width: 100%;
+	height: 700px;
+	
+}
+
+
+.div1
+{
+	width:26.66%;
+	height: 500px;
+	margin-left: 8%;
+	margin-top: 30px;
+	float: left;
+}
+
+.div1pic
+{
+	width:100%;
+	height: 250px;
+	background: url('photos/best-dentist-america.png') no-repeat;
+	background-size: cover
+		
+}
+
+.div2
+{
+	width:26.66%;
+	height: 500px;
+	margin-left: 2%;
+	margin-top: 30px;
+	float: left;
+}
+
+.div2pic
+{
+	width:100%;
+	height: 250px;
+	background: url('photos/dentistwriter-466x297.png') no-repeat;
+	background-size: cover
+		
+}
+
+.div3
+{
+	width:26.66%;
+	height: 500px;
+	margin-left: 2%;
+	float: left;
+	margin-top: 30px;
+}
+
+.div3pic
+{
+	width:100%;
+	height: 250px;
+	background: url('photos/coos-bay-dentist-north-bend.png') no-repeat;
+	background-size: cover
+		
+}
+
+.skewdiv1
+{
+	width:50%;
+	height: 60px;
+	margin-left: 7.5%;
+	background: #27b2d3;
+	position:relative;
+	top: 220px;
+	border-radius: 10px 0px 0px 10px;
+	transform: skewX(-20deg);
+	float: left;
+}
+
+.skewname
+{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 5%;
+	padding-top: 10px;
+	transform: skewX(20deg)
+
+}
+
+
+.skewname1
+{
+	font-size: 10px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 10%;
+	padding-top: 10px;
+	float: left;
+	transform: skewX(20deg);
+	text-transform: capitalize;
+
+}
+
+
+
+.skewdiv2
+{
+	width:35%;
+	height: 60px;
+	background: #0a7087;
+	border-radius:  0px 10px 10px 0px;
+	transform: skewX(-20deg);
+	float: right;
+	margin-right: 7.5%;
+	position:relative;
+	top: 220px;
+}
+
+.fa-facebook-f
+{
+	transform: skewX(20deg);
+	padding-left: 30%;
+	padding-top: 20px;
+	color: #1eb3d1;
+
+
+}
+
+.fa-twitter
+{
+	transform: skewX(20deg);
+	padding-top: 20px;
+	color: #1eb3d1;
+
+
+
+}
+
+.fa-envelope
+{
+	transform: skewX(20deg);
+	padding-top: 20px;
+	color: #1eb3d1;
+
+
+}
+
+.parskew
+{
+	font-size: 12px;
+	color:#646464;
+	font-family: 'Montserrat', sans-serif;	
+	padding-top: 50px;
+	text-align: center;
+}
+
+
+.arrowleft
+{
+	width: 10%;
+	height: 35px;
+	border: 2px solid #27b2d3;
+	margin-left: 20%;
+	border-radius: 5px;
+	margin-top: 70px;
+	float: left;
+	background: white;
+}
+
+.center
+{
+	width: 30%;
+	height: 35px;
+	border: 2px solid #27b2d3;
+	margin-left: 2%;
+	border-radius: 5px;
+	margin-top: 70px;
+	float: left;
+	text-align: center;
+	color: #27b2d3;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+    background: white;
+}
+
+.arrowright
+{
+	width: 10%;
+	height: 35px;
+	border: 2px solid #27b2d3;
+	margin-left: 2%;
+	border-radius: 5px;
+	margin-top: 70px;
+	float: left;
+	background: white;
+}
+
+.fa-chevron-left,
+.fa-chevron-right
+{
+	color: #27b2d3;
+}
+
+.fa-chevron-left
+{
+	padding-left: 0px;
+}
+
+.fa-chevron-right
+{
+	padding-left: 0px;
+	
+}
+/* end of sixth contaner*/
+
+
+/* start of footer*/
+
+.footer
+{
+	width:100%;
+	height: 250px;
+}
+
+.footer1
+{
+	width:33.33%;
+	height: 250px;
+	background: #51bbe5;
+	float: left;
+}
+
+.title2
+{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 20px;
+	
+   
+}
+
+.underline
+{
+	width:50px;
+	height: 3px;
+	background: white;
+	border-radius: 5px;
+	position: absolute;
+	left: 8%;
+		
+}
+
+.par6
+{
+	font-size: 12px;
+	color: white;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 8%;
+	line-height: 200%;
+
+}
+
+.footer2
+{
+	width:33.33%;
+	height: 250px;
+	background: #3cacda;
+	float: left;
+}
+
+
+.title3
+{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 50px;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-left: 15%
+	
+   
+}
+
+
+.underline2
+{
+	width:50px;
+	height: 3px;
+	background: white;
+	border-radius: 5px;
+	position: absolute;
+	left: 38.5%;
+		
+}
+
+.par7
+{
+	font-size: 12px;
+	color: white;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 38.5%;
+	line-height: 200%;
+
+}
+
+.footer3
+{
+	width:33.33%;
+	height: 250px;
+	background: #2ca5d4;
+	float: left;
+}
+
+.underline3
+{
+	width:50px;
+	height: 3px;
+	background: white;
+	border-radius: 5px;
+	position: absolute;
+	left: 72%;
+		
+}
+
+.par8
+{
+	font-size: 12px;
+	color: white;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 72%;
+	line-height: 200%;
+
+}
+
+.fa-envelope-square,
+.fa-phone,
+.fa-mobile
+{
+	padding-right: 10px;
+}
+/*end of footer*/
+
+
+
